@@ -1,0 +1,53 @@
+/*
+* @Author: eastpiger
+* @Date:   2016-12-10 16:07:29
+* @Last Modified by:   eastpiger
+* @Last Modified time: 2016-12-10 17:25:53
+*/
+* {
+	font-family: "PingFang SC";
+}
+body {
+	background-image: url("mountain.jpg");
+	background-size: cover;
+}
+
+table {
+	width: 100%;
+}
+
+.cell {
+	width: 30px;
+	height: 30px;
+	background-color: rgba(255, 255, 255, 0.9);
+	text-align: center;
+	padding: 10px 0px;
+	font-size: small;
+}
+
+.cell:hover {
+	background-color: black;
+	color: white;
+	font-size: large;
+	cursor: pointer;
+	transition: font-size 0.2s ease-out;
+}
+
+.bigcell {
+	padding: 0px 20px;
+}
+
+#title {
+	padding: 30px;
+	font-size: 30px;
+}
+
+#link {
+	float: right;
+}
+
+#link a{
+	text-decoration: none;
+	color: black;
+	padding: 20px;
+}
